@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="scan_table_check">
+    <scan_table_check action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <advanced>true</advanced>
+        <category>upgradability</category>
+        <conditions/>
+        <description>testing</description>
+        <documentation_url/>
+        <finding_type>scan_finding</finding_type>
+        <name>Test check</name>
+        <priority>2</priority>
+        <resolution_details/>
+        <run_condition/>
+        <score_max>100</score_max>
+        <score_min>0</score_min>
+        <score_scale>1</score_scale>
+        <script><![CDATA[(function (engine) {
+
+    // Add your code here
+
+})(engine);]]></script>
+        <short_description>testing</short_description>
+        <sys_class_name>scan_table_check</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-29 13:28:25</sys_created_on>
+        <sys_id>4f9c5771ffd0d610b155f479fc4fd973</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Test check</sys_name>
+        <sys_package display_value="Proactive Code Review" source="x_snc_proactive_co">7ba9caf1ff9c9610b155f479fc4fd929</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Proactive Code Review">7ba9caf1ff9c9610b155f479fc4fd929</sys_scope>
+        <sys_update_name>scan_table_check_4f9c5771ffd0d610b155f479fc4fd973</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-29 13:28:25</sys_updated_on>
+        <table>scan_task</table>
+        <use_manifest>false</use_manifest>
+    </scan_table_check>
+    <sys_translated_text action="delete_multiple" query="documentkey=4f9c5771ffd0d610b155f479fc4fd973"/>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>4f9c5771ffd0d610b155f479fc4fd973</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-29 13:28:24</sys_created_on>
+        <sys_id>98ccd771ffd0d610b155f479fc4fd98a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-29 13:28:24</sys_updated_on>
+        <table>scan_table_check</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+</record_update>
